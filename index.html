@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel Responsivo</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN INICIO -->
+  <header>
+  <nav class="navbar fixed-top p-3 mb-2 bg-dark-subtle text-dark-emphasis">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/LOGOTIPOLIN.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle">
+        Lynet
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.tiffany.es/client-services/size-guide/necklaces-pendants-size.html?srsltid=AfmBOoqLXNhxVOU6rUlFuuOI_puMYewvJHh2LlblzHTLlHyHYR2OrcmW">"¿Cómo encuentro mis medidas?"</a>
+            </li>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </header>
+       <!-- BARRA DE NAVEGACIÓN FIN -->
+
+
+       
+  <!-- CARROUSEL INICIO -->
+    <div class="carousel-container">
+        <div id="responsiveCarousel" class="carousel slide carousel-wrapper" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <img src="./img/collar.jpg" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡No te pierdas de este collar!</h5>
+                  <p class="text-box">Disponible hasta el 20 de diciembre</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/collarcito.png" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡Hermoso collar que te protegerá!</h5>
+                  <p class="text-box">Disponible hasta el 3 de enero</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/collarzote.png" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡La edición San Valentín ya está aquí!</h5>
+                  <p class="text-box">Disponible hasta el 6 de diciembre</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/collar4.jpg" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡Consigue tu edición Diamante!</h5>
+                  <p class="text-box">Disponible hasta el 30 de diciembre</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/collar5.jpeg" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡Delicadeza y atrevimiento!</h5>
+                  <p class="text-box">Disponible hasta el 23 de enero</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/collar6.jpeg" class="img-fluid" alt="Encuentre este producto en Lynet" class="imacarr">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-box">¡Un toque femenino hermoso!</h5>
+                  <p class="text-box">Disponible hasta el 12 de febrero</p>
+                </div>
+              </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#responsiveCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#responsiveCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-4">
+      <div class="row justify-content-center g-2">
+        <!-- Primera tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collar.jpg" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Collar Strass</h5>
+              <p class="card-text">Destaca por sus delicadas piedras que reflejan la luz, añadiendo un toque sofisticado a cualquier look. </p>
+              <a href="#producto1" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Segunda tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collarcito.png" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Collar obsidiana</h5>
+              <p class="card-text">Elegancia y misticismo en un solo accesorio, ideal para quienes buscan protección y unicidad.</p>
+              <a href="#producto2" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Tercera tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collarzote.png" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Edición San Valentín</h5>
+              <p class="card-text">Un accesorio romántico y elegante diseñado para celebrar el amor, expresa delicadeza. </p>
+              <a href="#producto3" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Cuarta tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collar4.jpg" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Edición diamante</h5>
+              <p class="card-text">Perfecto para quienes buscan un accesorio exclusivo que combine lujo y sofisticación.</p>
+              <a href="#producto4" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Quinta tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collar5.jpeg" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Collar corazón con lazos</h5>
+              <p class="card-text">Su diseño único realza tu estilo con un toque romántico, sofisticado y muy femenino.</p>
+              <a href="#producto5" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Sexta tarjeta -->
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/collar6.jpeg" class="card-img-top" alt="Encuentre este producto en Lynet">
+            <div class="card-body">
+              <h5 class="card-title">Collar de perlas</h5>
+              <p class="card-text">El collar de perlas, un clásico que nunca pasa de moda, es el toque perfecto para cualquier ocasión.</p>
+              <a href="#producto6" class="btn btn-primary">Ver producto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="PRODUCTOS">
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div id="producto1" class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collar.jpg" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto1" class="col-12 col-sm-6">
+                <h3 class="my-3">COLLAR DE STRASS</h3>
+                <p class="text-justify">
+                  ✨Brillo y glamour en cada detalle. Este collar destaca por sus delicadas piedras que reflejan la luz, añadiendo un toque sofisticado a cualquier look. Perfecto para ocasiones especiales o para realzar tu estilo diario.✨
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $15.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega hoy</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div id="producto2" class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collarcito.png" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto2" class="col-12 col-sm-6">
+                <h3 class="my-3">COLLAR OBSIDIANA</h3>
+                <p class="text-justify">
+                  🖤Elegancia y misticismo en un solo accesorio. Este collar, con su imponente obsidiana, es ideal para quienes buscan protección y estilo en su día a día. Perfecto para realzar cualquier look con un toque de distinción.🖤
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $15.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega hoy</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div id="producto3" class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collarzote.png" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto3" class="col-12 col-sm-6">
+                <h3 class="my-3">EDICIÓN SAN VALENTÍN</h3>
+                <p class="text-justify">
+                  💖Un accesorio romántico y elegante diseñado para celebrar el amor. Perfecto para regalar en ocasiones especiales, combina delicadeza y estilo único para hacer de cada momento algo inolvidable.💖
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $20.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega el próximo sábado</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div id="producto4" class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collar4.jpg" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto6" class="col-12 col-sm-6">
+                <h3 class="my-3">EDICIÓN DIAMANTE: COLLAR Y ARITOS</h3>
+                <p class="text-justify">
+                  💎Elegancia y brillo en su máxima expresión. Este set incluye un deslumbrante collar con detalles de diamante y aros a juego, diseñados para destacar en cada momento especial. Perfecto para quienes buscan un accesorio exclusivo que combine lujo, sofisticación y estilo atemporal. ¡Haz que cada mirada sea para ti!💎
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $54.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega el próximo viernes</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div id="producto5" class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collar5.jpeg" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto6" class="col-12 col-sm-6">
+                <h3 class="my-3">COLLAR CORAZÓN CON LAZOS</h3>
+                <p class="text-justify">
+                💖Un delicado collar que combina un hermoso dije en forma de corazón con elegantes detalles de lazos. Perfecto para expresar amor y feminidad en cualquier ocasión. Su diseño único realza tu estilo con un toque romántico y sofisticado. ¡Un regalo ideal para alguien especial o para consentirte a ti misma! 💖
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $15.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega el próximo martes</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col ms-2 me-2 mt-2">
+        <div class="card card-solid bg-gray">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active text-center"><img src="./img/collar6.jpeg" alt="Encontra este producto en Lynet"></div>
+                </div>
+              </div>
+
+              <div id="producto6" class="col-12 col-sm-6">
+                <h3 class="my-3">COLLAR DE PERLAS</h3>
+                <p class="text-justify">
+                  🌟El collar de perlas, un clásico que nunca pasa de moda, es el toque perfecto para cualquier ocasión. Con perlas cuidadosamente seleccionadas por su brillo y calidad, este accesorio realza tu belleza natural con sofisticación y estilo.
+                  Ideal para regalar o complementar tu look, este collar es más que una joya: es un símbolo de distinción. ¡Hazlo tuyo y siente la magia de las perlas en cada momento especial!🌟
+                </p>
+                <hr>
+                <h4 class="mt-3">Seleccione su talle</h4>
+                <div>
+                  <table class="table table-bordered table-striped text-center">
+                      <thead class="table-dark">
+                          <tr>
+                              <th>Talla (ropa o accesorio)</th>
+                              <th>Circunferencia del cuello (cm)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>XS</td>
+                              <td>33-35</td>
+                          </tr>
+                          <tr>
+                              <td>S</td>
+                              <td>36-38</td>
+                          </tr>
+                          <tr>
+                              <td>M</td>
+                              <td>39-41</td>
+                          </tr>
+                          <tr>
+                              <td>L</td>
+                              <td>42-44</td>
+                          </tr>
+                          <tr>
+                              <td>XL</td>
+                              <td>45-47</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                
+                <div class="bg-gray py-2 px-3 mt-4">
+                  <h2 class="mb-0">
+                    $30.000
+                  </h2>
+                  <h4 class="mt-0">
+                    <small>Entrega en 24 horas</small>
+                  </h4>
+                </div>
+  
+                <div class="mt-4">
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fas fa-cart-plus fa-lg mr-2"></i>
+                    Añadir a carrito
+                  </button>
+                </div>
+
+                </div>
+  
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-gray">
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </a>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+    </div>
+    </section>   
+
+
+  
+    <footer class="bg-dark text-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+          <!-- Nombre de la empresa -->
+          <div>
+              <h5 class="mb-0">Lynet</h5>
+          </div>
+  
+          <!-- Iconos de redes sociales -->
+          <div>
+              <a href="https://facebook.com" class="text-white me-3" target="_blank" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://twitter.com" class="text-white me-3" target="_blank" aria-label="Twitter">
+                  <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://instagram.com" class="text-white" target="_blank" aria-label="Instagram">
+                  <i class="bi bi-instagram"></i>
+              </a>
+          </div>
+      </div>
+  </footer>
+  
+  <!-- Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

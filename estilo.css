@@ -1,0 +1,45 @@
+body {
+    font-family: "Parkinsans";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.imacarr{
+    width: 150px;
+    height: 75px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.carousel-wrapper {
+    max-width: 640px; 
+    width: 100%; 
+}
+
+.carousel-inner img {
+    object-fit: cover; 
+    width: 100%;
+    height: auto; 
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-box {
+    display: inline-block; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+  }
+  
+  #producto1,  #producto2,  #producto3,  #producto4,  #producto5,  #producto6 {
+    background-color: rgba(255, 255, 255, 0.562); 
+}
+    
